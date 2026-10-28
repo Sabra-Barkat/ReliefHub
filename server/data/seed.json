@@ -1,0 +1,780 @@
+{
+  "camps": [
+    {
+      "id": "camp-1",
+      "name": "Basti Noor Shah",
+      "district": "Sukkur",
+      "capacity": 1500,
+      "current_families": 1243,
+      "status": "Active",
+      "notes": "Adjacent to bypass embankment. Heavy influx from northern submerged villages."
+    },
+    {
+      "id": "camp-2",
+      "name": "Chak 76",
+      "district": "Khairpur",
+      "capacity": 1200,
+      "current_families": 950,
+      "status": "Active",
+      "notes": "Established on elevated school grounds. Water supply point active."
+    },
+    {
+      "id": "camp-3",
+      "name": "Khadim Ali Shah",
+      "district": "Sukkur",
+      "capacity": 1000,
+      "current_families": 820,
+      "status": "Active",
+      "notes": "High demand for replacement tarpaulins following recent rainfall."
+    },
+    {
+      "id": "camp-4",
+      "name": "Ghotki Town",
+      "district": "Ghotki",
+      "capacity": 1800,
+      "current_families": 1420,
+      "status": "Active",
+      "notes": "Large municipal grounds camp. Main hub for upper Sindh coordination."
+    },
+    {
+      "id": "camp-5",
+      "name": "Sehwan Camp",
+      "district": "SBA",
+      "capacity": 1000,
+      "current_families": 829,
+      "status": "Active",
+      "notes": "Near shrine outer perimeter. Steady supply chain from Hyderabad artery."
+    },
+    {
+      "id": "camp-6",
+      "name": "Gambat Relief Base",
+      "district": "Khairpur",
+      "capacity": 800,
+      "current_families": 640,
+      "status": "Active",
+      "notes": "Specialized medical triaging tent operating in eastern sector."
+    },
+    {
+      "id": "camp-7",
+      "name": "Johi Bund Camp",
+      "district": "Dadu",
+      "capacity": 500,
+      "current_families": 500,
+      "status": "Full",
+      "notes": "Capacity reached; newly arriving families redirected to Mehar corridor."
+    },
+    {
+      "id": "camp-8",
+      "name": "Mehar High Camp",
+      "district": "Dadu",
+      "capacity": 700,
+      "current_families": 0,
+      "status": "Closed",
+      "notes": "Decommissioned after flood waters receded and families returned safely to native union councils."
+    },
+    {
+      "id": "camp-9",
+      "name": "Mirpur Mathelo Station",
+      "district": "Ghotki",
+      "capacity": 900,
+      "current_families": 580,
+      "status": "Active",
+      "notes": "Staging area near highway intersection; rail-adjacent warehouse access."
+    }
+  ],
+  "inventory": [
+    {
+      "id": "item-1",
+      "name": "Clean drinking water",
+      "category": "Water & Sanitation",
+      "unit": "L",
+      "stock": 4200,
+      "reorder_level": 5000
+    },
+    {
+      "id": "item-2",
+      "name": "Water containers",
+      "category": "Water & Sanitation",
+      "unit": "units",
+      "stock": 45,
+      "reorder_level": 50
+    },
+    {
+      "id": "item-3",
+      "name": "Family tents",
+      "category": "Shelter & NFIs",
+      "unit": "tents",
+      "stock": 180,
+      "reorder_level": 60
+    },
+    {
+      "id": "item-4",
+      "name": "Tarpaulins",
+      "category": "Shelter & NFIs",
+      "unit": "pcs",
+      "stock": 320,
+      "reorder_level": 100
+    },
+    {
+      "id": "item-5",
+      "name": "Food packs",
+      "category": "Food & Nutrition",
+      "unit": "packs",
+      "stock": 420,
+      "reorder_level": 150
+    },
+    {
+      "id": "item-6",
+      "name": "High-energy biscuits",
+      "category": "Food & Nutrition",
+      "unit": "boxes",
+      "stock": 25,
+      "reorder_level": 30
+    },
+    {
+      "id": "item-7",
+      "name": "First aid kits",
+      "category": "Medical Supplies",
+      "unit": "kits",
+      "stock": 85,
+      "reorder_level": 40
+    },
+    {
+      "id": "item-8",
+      "name": "Emergency antibiotics",
+      "category": "Medical Supplies",
+      "unit": "packs",
+      "stock": 18,
+      "reorder_level": 25
+    },
+    {
+      "id": "item-9",
+      "name": "Family hygiene kits",
+      "category": "Hygiene Kits",
+      "unit": "kits",
+      "stock": 210,
+      "reorder_level": 80
+    },
+    {
+      "id": "item-10",
+      "name": "Mosquito nets",
+      "category": "Hygiene Kits",
+      "unit": "nets",
+      "stock": 450,
+      "reorder_level": 120
+    },
+    {
+      "id": "item-11",
+      "name": "Solar lanterns",
+      "category": "Other",
+      "unit": "units",
+      "stock": 95,
+      "reorder_level": 40
+    },
+    {
+      "id": "item-12",
+      "name": "Thermal blankets",
+      "category": "Shelter & NFIs",
+      "unit": "pcs",
+      "stock": 340,
+      "reorder_level": 100
+    },
+    {
+      "id": "item-13",
+      "name": "Oral Rehydration Salts (ORS)",
+      "category": "Medical Supplies",
+      "unit": "boxes",
+      "stock": 650,
+      "reorder_level": 200
+    }
+  ],
+  "needs": [
+    {
+      "id": "need-1",
+      "camp_id": "camp-1",
+      "inventory_item_id": "item-2",
+      "required_quantity": 100,
+      "priority": "High",
+      "fulfilled_quantity": 30
+    },
+    {
+      "id": "need-2",
+      "camp_id": "camp-2",
+      "inventory_item_id": "item-3",
+      "required_quantity": 120,
+      "priority": "High",
+      "fulfilled_quantity": 40
+    },
+    {
+      "id": "need-3",
+      "camp_id": "camp-3",
+      "inventory_item_id": "item-4",
+      "required_quantity": 200,
+      "priority": "High",
+      "fulfilled_quantity": 60
+    },
+    {
+      "id": "need-4",
+      "camp_id": "camp-4",
+      "inventory_item_id": "item-1",
+      "required_quantity": 5000,
+      "priority": "High",
+      "fulfilled_quantity": 1500
+    },
+    {
+      "id": "need-5",
+      "camp_id": "camp-5",
+      "inventory_item_id": "item-5",
+      "required_quantity": 300,
+      "priority": "High",
+      "fulfilled_quantity": 120
+    },
+    {
+      "id": "need-6",
+      "camp_id": "camp-1",
+      "inventory_item_id": "item-5",
+      "required_quantity": 250,
+      "priority": "Medium",
+      "fulfilled_quantity": 150
+    },
+    {
+      "id": "need-7",
+      "camp_id": "camp-1",
+      "inventory_item_id": "item-7",
+      "required_quantity": 50,
+      "priority": "High",
+      "fulfilled_quantity": 35
+    },
+    {
+      "id": "need-8",
+      "camp_id": "camp-2",
+      "inventory_item_id": "item-1",
+      "required_quantity": 3000,
+      "priority": "Medium",
+      "fulfilled_quantity": 2000
+    },
+    {
+      "id": "need-9",
+      "camp_id": "camp-2",
+      "inventory_item_id": "item-9",
+      "required_quantity": 150,
+      "priority": "Low",
+      "fulfilled_quantity": 100
+    },
+    {
+      "id": "need-10",
+      "camp_id": "camp-3",
+      "inventory_item_id": "item-10",
+      "required_quantity": 300,
+      "priority": "Medium",
+      "fulfilled_quantity": 200
+    },
+    {
+      "id": "need-11",
+      "camp_id": "camp-4",
+      "inventory_item_id": "item-5",
+      "required_quantity": 400,
+      "priority": "High",
+      "fulfilled_quantity": 250
+    },
+    {
+      "id": "need-12",
+      "camp_id": "camp-4",
+      "inventory_item_id": "item-13",
+      "required_quantity": 500,
+      "priority": "Medium",
+      "fulfilled_quantity": 400
+    },
+    {
+      "id": "need-13",
+      "camp_id": "camp-5",
+      "inventory_item_id": "item-2",
+      "required_quantity": 80,
+      "priority": "Medium",
+      "fulfilled_quantity": 50
+    },
+    {
+      "id": "need-14",
+      "camp_id": "camp-6",
+      "inventory_item_id": "item-7",
+      "required_quantity": 40,
+      "priority": "High",
+      "fulfilled_quantity": 30
+    },
+    {
+      "id": "need-15",
+      "camp_id": "camp-6",
+      "inventory_item_id": "item-8",
+      "required_quantity": 30,
+      "priority": "High",
+      "fulfilled_quantity": 10
+    },
+    {
+      "id": "need-16",
+      "camp_id": "camp-7",
+      "inventory_item_id": "item-1",
+      "required_quantity": 2000,
+      "priority": "High",
+      "fulfilled_quantity": 1200
+    },
+    {
+      "id": "need-17",
+      "camp_id": "camp-7",
+      "inventory_item_id": "item-12",
+      "required_quantity": 100,
+      "priority": "Medium",
+      "fulfilled_quantity": 70
+    },
+    {
+      "id": "need-18",
+      "camp_id": "camp-9",
+      "inventory_item_id": "item-5",
+      "required_quantity": 200,
+      "priority": "Medium",
+      "fulfilled_quantity": 120
+    },
+    {
+      "id": "need-19",
+      "camp_id": "camp-9",
+      "inventory_item_id": "item-11",
+      "required_quantity": 60,
+      "priority": "Low",
+      "fulfilled_quantity": 20
+    },
+    {
+      "id": "need-20",
+      "camp_id": "camp-3",
+      "inventory_item_id": "item-12",
+      "required_quantity": 150,
+      "priority": "Low",
+      "fulfilled_quantity": 100
+    },
+    {
+      "id": "need-21",
+      "camp_id": "camp-6",
+      "inventory_item_id": "item-13",
+      "required_quantity": 200,
+      "priority": "Medium",
+      "fulfilled_quantity": 160
+    }
+  ],
+  "dispatches": [
+    {
+      "id": "disp-1",
+      "camp_id": "camp-1",
+      "need_id": "need-1",
+      "inventory_item_id": "item-2",
+      "quantity": 20,
+      "status": "Pending",
+      "created_at": "2026-10-14T09:12:00Z",
+      "dispatched_by": "Warehouse Team",
+      "notes": "Queued for morning convoy to Sukkur"
+    },
+    {
+      "id": "disp-2",
+      "camp_id": "camp-2",
+      "need_id": "need-2",
+      "inventory_item_id": "item-3",
+      "quantity": 35,
+      "status": "In Transit",
+      "created_at": "2026-10-14T08:30:00Z",
+      "dispatched_by": "Logistics Unit",
+      "notes": "Truck #SK-419 via National Highway N-5"
+    },
+    {
+      "id": "disp-3",
+      "camp_id": "camp-3",
+      "need_id": "need-3",
+      "inventory_item_id": "item-4",
+      "quantity": 80,
+      "status": "Pending",
+      "created_at": "2026-10-14T07:45:00Z",
+      "dispatched_by": "Coordination Desk",
+      "notes": "Awaiting final loading confirmation at Central Depot"
+    },
+    {
+      "id": "disp-4",
+      "camp_id": "camp-4",
+      "need_id": "need-4",
+      "inventory_item_id": "item-1",
+      "quantity": 2000,
+      "status": "In Transit",
+      "created_at": "2026-10-14T06:00:00Z",
+      "dispatched_by": "Water Logistics Unit",
+      "notes": "Bowser Tanker 04 dispatched to Ghotki grounds"
+    },
+    {
+      "id": "disp-5",
+      "camp_id": "camp-5",
+      "need_id": "need-5",
+      "inventory_item_id": "item-5",
+      "quantity": 90,
+      "status": "Pending",
+      "created_at": "2026-10-14T09:40:00Z",
+      "dispatched_by": "Warehouse Team",
+      "notes": "Packed and staged at loading bay 2"
+    },
+    {
+      "id": "disp-6",
+      "camp_id": "camp-1",
+      "need_id": "need-1",
+      "inventory_item_id": "item-2",
+      "quantity": 10,
+      "status": "Delivered",
+      "created_at": "2026-10-13T16:34:00Z",
+      "updated_at": "2026-10-13T18:10:00Z",
+      "dispatched_by": "Dispatch Team",
+      "notes": "Received by camp representative and verified"
+    },
+    {
+      "id": "disp-7",
+      "camp_id": "camp-2",
+      "need_id": "need-8",
+      "inventory_item_id": "item-1",
+      "quantity": 1000,
+      "status": "Delivered",
+      "created_at": "2026-10-13T11:00:00Z",
+      "updated_at": "2026-10-13T14:20:00Z",
+      "dispatched_by": "Water Logistics",
+      "notes": "Clean water tanker discharged into camp reservoir"
+    },
+    {
+      "id": "disp-8",
+      "camp_id": "camp-6",
+      "need_id": "need-14",
+      "inventory_item_id": "item-7",
+      "quantity": 10,
+      "status": "Delivered",
+      "created_at": "2026-10-13T09:15:00Z",
+      "updated_at": "2026-10-13T11:45:00Z",
+      "dispatched_by": "Medical Rapid Response",
+      "notes": "Emergency triage replenishment delivered"
+    },
+    {
+      "id": "disp-9",
+      "camp_id": "camp-7",
+      "need_id": "need-16",
+      "inventory_item_id": "item-1",
+      "quantity": 500,
+      "status": "In Transit",
+      "created_at": "2026-10-14T10:15:00Z",
+      "dispatched_by": "Southern Logistics",
+      "notes": "Dadu route clearance confirmed by local DC office"
+    },
+    {
+      "id": "disp-10",
+      "camp_id": "camp-4",
+      "need_id": "need-11",
+      "inventory_item_id": "item-5",
+      "quantity": 50,
+      "status": "Cancelled",
+      "created_at": "2026-10-12T14:00:00Z",
+      "updated_at": "2026-10-12T15:30:00Z",
+      "dispatched_by": "Warehouse Team",
+      "notes": "Cancelled due to mechanical failure of transport vehicle; stock returned to depot"
+    },
+    {
+      "id": "disp-11",
+      "camp_id": "camp-6",
+      "need_id": "need-15",
+      "inventory_item_id": "item-8",
+      "quantity": 10,
+      "status": "In Transit",
+      "created_at": "2026-10-14T09:00:00Z",
+      "dispatched_by": "Health Secretariat",
+      "notes": "Refrigerated transport for antibiotics"
+    },
+    {
+      "id": "disp-12",
+      "camp_id": "camp-9",
+      "need_id": "need-19",
+      "inventory_item_id": "item-11",
+      "quantity": 20,
+      "status": "Delivered",
+      "created_at": "2026-10-12T08:00:00Z",
+      "updated_at": "2026-10-12T10:30:00Z",
+      "dispatched_by": "Logistics Unit",
+      "notes": "Solar units handed to security coordinator"
+    }
+  ],
+  "donations": [
+    {
+      "id": "don-1",
+      "type": "Cash",
+      "amount_or_quantity": 750000,
+      "item_id": null,
+      "category": "Emergency Relief Fund",
+      "donor_name": "Sindh Diaspora Network UK",
+      "date": "2026-10-14T08:00:00Z",
+      "notes": "Allocated for emergency water tanker leasing and fuel subsidies"
+    },
+    {
+      "id": "don-2",
+      "type": "In-Kind",
+      "amount_or_quantity": 100,
+      "item_id": "item-3",
+      "category": "Shelter & NFIs",
+      "donor_name": "Crescent Relief Agency",
+      "date": "2026-10-13T14:30:00Z",
+      "notes": "Heavy waterproof canvas tents with ground sheets"
+    },
+    {
+      "id": "don-3",
+      "type": "In-Kind",
+      "amount_or_quantity": 250,
+      "item_id": "item-5",
+      "category": "Food & Nutrition",
+      "donor_name": "Karachi Grain Merchants Association",
+      "date": "2026-10-13T10:00:00Z",
+      "notes": "Standard dry ration packs containing flour, lentils, cooking oil"
+    },
+    {
+      "id": "don-4",
+      "type": "Cash",
+      "amount_or_quantity": 1200000,
+      "item_id": null,
+      "category": "Medical Aid",
+      "donor_name": "Pakistani Physicians Health Trust",
+      "date": "2026-10-12T16:45:00Z",
+      "notes": "Designated for antivenom, antibiotics, and waterborne disease therapeutics"
+    },
+    {
+      "id": "don-5",
+      "type": "In-Kind",
+      "amount_or_quantity": 200,
+      "item_id": "item-2",
+      "category": "Water & Sanitation",
+      "donor_name": "Sindh Clean Water Initiative",
+      "date": "2026-10-12T11:20:00Z",
+      "notes": "20-litre food grade jerrycans with spigots"
+    },
+    {
+      "id": "don-6",
+      "type": "Cash",
+      "amount_or_quantity": 450000,
+      "item_id": null,
+      "category": "General Operations",
+      "donor_name": "Sukkur Chamber of Commerce",
+      "date": "2026-10-11T13:00:00Z",
+      "notes": "Local business coalition contribution for warehouse power backup"
+    },
+    {
+      "id": "don-7",
+      "type": "In-Kind",
+      "amount_or_quantity": 300,
+      "item_id": "item-10",
+      "category": "Hygiene Kits",
+      "donor_name": "Global Health Partners",
+      "date": "2026-10-11T09:15:00Z",
+      "notes": "Long-lasting insecticidal mosquito nets (LLINs)"
+    },
+    {
+      "id": "don-8",
+      "type": "In-Kind",
+      "amount_or_quantity": 50,
+      "item_id": "item-7",
+      "category": "Medical Supplies",
+      "donor_name": "Larkana Red Crescent",
+      "date": "2026-10-10T15:10:00Z",
+      "notes": "Complete camp clinic trauma kits"
+    },
+    {
+      "id": "don-9",
+      "type": "Cash",
+      "amount_or_quantity": 300000,
+      "item_id": null,
+      "category": "Logistics & Transport",
+      "donor_name": "Indus Valley Transport Union",
+      "date": "2026-10-10T12:00:00Z",
+      "notes": "Diesel fuel vouchers for relief truck fleet"
+    },
+    {
+      "id": "don-10",
+      "type": "In-Kind",
+      "amount_or_quantity": 50,
+      "item_id": "item-11",
+      "category": "Other",
+      "donor_name": "Solar Hope Foundation",
+      "date": "2026-10-09T17:30:00Z",
+      "notes": "High-durability solar lighting kits with phone chargers"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "vol-1",
+      "name": "Dr. Tariq Soomro",
+      "skill": "Medical",
+      "camp_id": "camp-1",
+      "phone": "+92 300 2819011",
+      "joined_date": "2026-10-01"
+    },
+    {
+      "id": "vol-2",
+      "name": "Zainab Kalhoro",
+      "skill": "Logistics",
+      "camp_id": "camp-1",
+      "phone": "+92 312 9482103",
+      "joined_date": "2026-10-02"
+    },
+    {
+      "id": "vol-3",
+      "name": "Bilal Ahmed Junejo",
+      "skill": "Driving",
+      "camp_id": "camp-2",
+      "phone": "+92 333 4519820",
+      "joined_date": "2026-10-03"
+    },
+    {
+      "id": "vol-4",
+      "name": "Fatima Bhutto",
+      "skill": "Counselling",
+      "camp_id": "camp-2",
+      "phone": "+92 301 7731294",
+      "joined_date": "2026-10-03"
+    },
+    {
+      "id": "vol-5",
+      "name": "Ghulam Mustafa",
+      "skill": "Cooking",
+      "camp_id": "camp-3",
+      "phone": "+92 345 6182930",
+      "joined_date": "2026-10-04"
+    },
+    {
+      "id": "vol-6",
+      "name": "Dr. Ayesha Memon",
+      "skill": "Medical",
+      "camp_id": "camp-4",
+      "phone": "+92 321 8291045",
+      "joined_date": "2026-10-04"
+    },
+    {
+      "id": "vol-7",
+      "name": "Imran Ali Shah",
+      "skill": "Logistics",
+      "camp_id": "camp-4",
+      "phone": "+92 302 9182374",
+      "joined_date": "2026-10-05"
+    },
+    {
+      "id": "vol-8",
+      "name": "Rashida Mallah",
+      "skill": "Cooking",
+      "camp_id": "camp-4",
+      "phone": "+92 334 1029384",
+      "joined_date": "2026-10-05"
+    },
+    {
+      "id": "vol-9",
+      "name": "Saeedullah Khan",
+      "skill": "Driving",
+      "camp_id": "camp-5",
+      "phone": "+92 315 7263541",
+      "joined_date": "2026-10-06"
+    },
+    {
+      "id": "vol-10",
+      "name": "Parveen Chandio",
+      "skill": "Counselling",
+      "camp_id": "camp-5",
+      "phone": "+92 300 8172635",
+      "joined_date": "2026-10-06"
+    },
+    {
+      "id": "vol-11",
+      "name": "Dr. Naveed Lashari",
+      "skill": "Medical",
+      "camp_id": "camp-6",
+      "phone": "+92 331 9283746",
+      "joined_date": "2026-10-07"
+    },
+    {
+      "id": "vol-12",
+      "name": "Kashif Abbasi",
+      "skill": "Logistics",
+      "camp_id": "camp-7",
+      "phone": "+92 346 5182934",
+      "joined_date": "2026-10-08"
+    },
+    {
+      "id": "vol-13",
+      "name": "Mehwish Rind",
+      "skill": "Cooking",
+      "camp_id": null,
+      "phone": "+92 303 6172839",
+      "joined_date": "2026-10-10"
+    },
+    {
+      "id": "vol-14",
+      "name": "Asaduzzaman Sheikh",
+      "skill": "Driving",
+      "camp_id": null,
+      "phone": "+92 311 8273645",
+      "joined_date": "2026-10-11"
+    },
+    {
+      "id": "vol-15",
+      "name": "Rubina Solangi",
+      "skill": "Medical",
+      "camp_id": null,
+      "phone": "+92 322 7182930",
+      "joined_date": "2026-10-12"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "audit-1",
+      "timestamp": "2026-10-14T09:40:00Z",
+      "action": "DISPATCH_CREATED",
+      "entity_type": "dispatch",
+      "entity_id": "disp-5",
+      "description": "Reserved 90 Food packs for Sehwan Camp. Warehouse stock updated: 510 -> 420 packs.",
+      "actor": "Relief Coordinator (Admin)"
+    },
+    {
+      "id": "audit-2",
+      "timestamp": "2026-10-14T09:12:00Z",
+      "action": "DISPATCH_CREATED",
+      "entity_type": "dispatch",
+      "entity_id": "disp-1",
+      "description": "Reserved 20 Water containers for Basti Noor Shah. Warehouse stock updated: 65 -> 45 units.",
+      "actor": "Relief Coordinator (Admin)"
+    },
+    {
+      "id": "audit-3",
+      "timestamp": "2026-10-14T08:30:00Z",
+      "action": "DISPATCH_STATUS_CHANGED",
+      "entity_type": "dispatch",
+      "entity_id": "disp-2",
+      "description": "Marked dispatch of 35 Family tents to Chak 76 as 'In Transit'. Stock unchanged.",
+      "actor": "Operations Coordinator"
+    },
+    {
+      "id": "audit-4",
+      "timestamp": "2026-10-13T18:10:00Z",
+      "action": "DISPATCH_DELIVERED",
+      "entity_type": "dispatch",
+      "entity_id": "disp-6",
+      "description": "Confirmed delivery of 10 Water containers at Basti Noor Shah. Fulfilled quantity updated: 20 -> 30.",
+      "actor": "Field Volunteer (Sukkur)"
+    },
+    {
+      "id": "audit-5",
+      "timestamp": "2026-10-13T14:30:00Z",
+      "action": "DONATION_RECEIVED",
+      "entity_type": "donation",
+      "entity_id": "don-2",
+      "description": "Received In-Kind donation of 100 Family tents from Crescent Relief Agency. Warehouse stock updated: 80 -> 180 tents.",
+      "actor": "Warehouse Officer"
+    },
+    {
+      "id": "audit-6",
+      "timestamp": "2026-10-12T15:30:00Z",
+      "action": "DISPATCH_CANCELLED",
+      "entity_type": "dispatch",
+      "entity_id": "disp-10",
+      "description": "Cancelled pending dispatch of 50 Food packs to Ghotki Town due to vehicle failure. Restored 50 packs to warehouse stock.",
+      "actor": "Relief Coordinator (Admin)"
+    }
+  ]
+}
